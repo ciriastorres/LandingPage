@@ -1,0 +1,17 @@
+:root{
+    --Purple-dark: #6C5CE7;
+    --grey-dark: #5C5C5C;
+    --pink-soft: #fff7dc;
+    --black: #2D3436;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;;
+}
