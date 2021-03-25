@@ -127,3 +127,142 @@ header{
     height: 80px;
 }
 
+
+.img-section{
+    width: 100%;
+    min-width: 320px;
+    height: 40vh;
+    margin: 50px auto 0;
+    background-image: url("https://i.ibb.co/7nxswVY/Image.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.img-section h3{
+    margin-top: 20px;
+    font-size: 2.3rem;
+    font-weight: bold;
+    line-height: 2.7rem;
+    color: white;
+}
+
+
+.main--why-us{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.main--why-us h2{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 3.6rem;
+    color: var(--black);
+}
+
+.main--why-us h2 span{
+    color: var(--Purple-dark);
+}
+
+.main--why-us--p{
+    margin-top: 10px;
+    font-size: 1.8rem;
+    font-weight: normal;
+    line-height: 2rem;
+    color: var(--black);
+}
+
+.main--service{
+    margin-top: 25px;
+}
+
+.main--service article{
+    margin-bottom: 25px;
+}
+
+.main--service--article--container .hand-up{
+    display: block;
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+    margin: 0 auto;
+    background-image: url("https://svgshare.com/i/VHx.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #FF7675;
+}
+
+
+.main--service--article--container .light{
+    display: block;
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+    margin: 0 auto;
+    background-image: url("https://svgshare.com/i/VKD.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00B894;
+}
+
+.main--service--article--container .linkedin{
+    display: block;
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+    margin: 0 auto;
+    background-image: url("https://svgshare.com/i/VK9.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #E84393;
+}
+
+
+.main--service--article--container .some-rctangle{
+    display: block;
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+    margin: 0 auto;
+    background-image: url("https://svgshare.com/i/VHv.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #74B9FF;
+}
+
+.main--service--article--container h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.7rem;
+    color: var(--black);
+}
+
+
+.main--service--article--container p{
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+    color: var(--black);
+}
+
+.main--service--article--container a{
+    display: block;
+    margin: 10px auto 0;
+    width: 109.5px;
+    height: 36px;
+    padding-top: 5px;
+    border: 0.75px solid #ADADAD;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 2.4rem;
+    color: var(--Purple-dark);
+}
+
+
