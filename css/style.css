@@ -308,7 +308,7 @@ header{
 .pricing--top{
     display: flex;
     position: relative;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .pricing--top h3{
@@ -325,7 +325,7 @@ header{
     height: 32px;
     left: 60%;
     margin-right: 10%;
-    padding-top: 5px;
+    padding-top: 7px;
     font-weight: 800;
     font-size: 1.2rem;
     line-height: 1.5rem;
@@ -336,6 +336,107 @@ header{
     border: 1px solid #858585;
     border-radius: 99px;
 }
+
+.pricing--value{
+    padding-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    line-height: 1.5rem;
+    color: var(--Purple-dark);
+    text-shadow: 0px 4px 0px #FFFFFF;
+}
+
+.pricing--value span{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 3.6rem;
+    color: var(--Purple-dark);
+    text-shadow: 0px 4px 0px #FFFFFF;
+}
+
+.princing--benefits-list{
+    list-style: none;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.princing--benefits-list li{
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: var(--black);
+}
+
+.princing--benefits-list li span{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-image: url("https://svgshare.com/i/VVd.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.pricing-content-container .pricing--call-to-action{
+    display: block;
+    margin: 40px auto 0;
+    width: 90%;
+    height: 48px;
+    padding-top: 5px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 3.2rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: var(--Purple-dark);
+    border-radius: 16px;
+}
+
+.pricing-content-container-best-ofert{
+    background-color: var(--Purple-dark);
+}
+
+.pricing-content-container-best-ofert .pricing--top-best-ofert h3{
+    color:  #55EFC4;
+}
+
+.pricing-content-container-best-ofert .pricing--top-best-ofert a{
+    color:  #55EFC4;
+    border: 1px solid #55EFC4;
+}
+
+
+.pricing--value-best-ofert{
+    color: white;
+    text-shadow: none;
+}
+
+.pricing--value-best-ofert span{
+    color: white;
+    text-shadow: none;
+}
+
+.princing--benefits-list--best-ofert li{
+    color: white;
+}
+
+.princing--benefits-list--best-ofert li span{
+    background-image: url("https://svgshare.com/i/VVe.svg");
+}
+
+.pricing-content-container .pricing--call-to-action-best-ofert{
+    background-color: white;
+    color: var(--black);
+}
+
+
+
+
 
 
 
