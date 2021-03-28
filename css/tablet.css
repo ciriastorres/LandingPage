@@ -1,0 +1,54 @@
+header{
+    margin: 0 auto;
+}
+
+.header--nav{
+    display: block;
+}
+
+.header--ul{
+    list-style: none;
+}
+
+.header--li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 3.2rem;
+    color: #2D3436;
+}
+
+.header--menu-sign-in span{
+    margin-left: 75px;
+    background-image: url("https://svgshare.com/i/VYF.svg");
+}
+
+.header--menu-sign-in p{
+    margin-right: 75px;
+}
+
+.main--service{
+    display: flex;
+    margin: 50px auto 0;
+}
+
+.section--princing-title, .section--princing--description{
+    padding-left: 0;
+}
+
+
+.section--princing-title{
+    text-align: center;
+}
+
+.section--princing--description{
+    text-align: center;
+}
+
+.section--pricing-content{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}

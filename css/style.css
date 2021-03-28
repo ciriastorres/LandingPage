@@ -18,12 +18,15 @@ html{
 
 header{
     position: relative;
+    max-width: 1200px;
 }
 
+.header--nav{
+    display: none;
+}
 .header--menu-sign-in{
     width: 100%;
     min-width: 320px;
-    max-width: 700px;
     height: 72px;
     display: flex;
     flex-wrap: wrap;
@@ -67,7 +70,6 @@ header{
     background-color: var(--pink-soft);
     width: 100%;
     min-width: 320px;
-    max-width: 700px;
     padding: 25px 0;
     text-align: center;
 }
@@ -131,6 +133,7 @@ header{
 .img-section{
     width: 100%;
     min-width: 320px;
+    max-width: 1200px;
     height: 40vh;
     margin: 50px auto 0;
     background-image: url("https://i.ibb.co/7nxswVY/Image.webp");
@@ -175,6 +178,7 @@ header{
 }
 
 .main--service{
+    max-width: 1200px;
     margin-top: 25px;
 }
 
@@ -434,6 +438,72 @@ header{
     color: var(--black);
 }
 
+footer{
+    margin: 100px auto 20px;
+    width: 85%;
+    text-align: center;
+}
+
+footer h3{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: var(--black);
+}
+
+footer p{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 2.2rem;
+    color: #00B894;
+}
+
+
+footer h2{
+    margin-top: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 3.2rem;
+    color: var(--Purple-dark);
+}
+
+.footer--icons-list{
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon-container{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.facebook{
+    background-image: url("https://svgshare.com/i/VHw.svg");
+}
+
+.linkedin{
+    background-image: url("https://svgshare.com/i/VKB.svg");
+}
+
+.slack{
+    background-image: url("https://svgshare.com/i/VGq.svg");
+}
+
+.twitter{
+    background-image: url("https://svgshare.com/i/VVM.svg");
+}
+
+.youtube{
+    background-image: url("https://svgshare.com/i/VKC.svg");
+}
 
 
 
