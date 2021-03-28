@@ -1,0 +1,513 @@
+:root{
+    --Purple-dark: #6C5CE7;
+    --grey-dark: #5C5C5C;
+    --pink-soft: #fff7dc;
+    --black: #2D3436;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;;
+}
+
+header{
+    position: relative;
+    max-width: 1200px;
+}
+
+.header--nav{
+    display: none;
+}
+.header--menu-sign-in{
+    width: 100%;
+    min-width: 320px;
+    height: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16);
+}
+
+.header--menu-sign-in span{
+    width: 40px;
+    height: 40px;
+    background-image: url("https://svgshare.com/i/VL5.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header--menu-sign-in p{
+    justify-self: left;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+}
+
+.header--menu-sign-in a{
+    width: 128px;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: 25px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+    text-decoration: none;
+    color: white;
+    background-color: var(--Purple-dark);
+    text-align: center;
+    border-radius: 8px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header--info{
+    background-color: var(--pink-soft);
+    width: 100%;
+    min-width: 320px;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.header--info h1{
+    font-size: 6.4rem;
+    font-weight: 900;
+    line-height: 7rem;
+    color: var(--black);
+    text-shadow: 0px 4px 0px #FFFFFF;
+}
+
+.header--info h2{
+    font-size: 4.8rem;
+    font-weight: bold;
+    line-height: 7.7rem;
+    color: var(--black);
+    text-shadow: 0px 4px 0px #FFFFFF;
+}
+
+
+.header--info h2 span{
+    color: #D63031;
+}
+
+.header--info p{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 3.6rem;
+    color: var(--black);
+}
+
+.header--call{
+    width: 40px;
+    height: 40px;
+    background-image: url("https://svgshare.com/i/VL5.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header--icon-container{
+    position: absolute;
+    left: calc(50% - 25px);
+    top: 93%;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-self: center;
+    align-items: center;
+    background-color: #fdf9ec;
+    border-radius: 50%;
+}
+
+.header--icon-container img{
+    width: 50px;
+    height: 80px;
+}
+
+
+.img-section{
+    width: 100%;
+    min-width: 320px;
+    max-width: 1200px;
+    height: 40vh;
+    margin: 50px auto 0;
+    background-image: url("https://i.ibb.co/7nxswVY/Image.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.img-section h3{
+    margin-top: 20px;
+    font-size: 2.3rem;
+    font-weight: bold;
+    line-height: 2.7rem;
+    color: white;
+}
+
+
+.main--why-us{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.main--why-us h2{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 3.6rem;
+    color: var(--black);
+}
+
+.main--why-us h2 span{
+    color: var(--Purple-dark);
+}
+
+.main--why-us--p{
+    margin-top: 10px;
+    font-size: 1.8rem;
+    font-weight: normal;
+    line-height: 2rem;
+    color: var(--black);
+}
+
+.main--service{
+    max-width: 1200px;
+    margin-top: 25px;
+}
+
+.main--service article{
+    margin-bottom: 25px;
+}
+
+.main--service--article--container .hand-up{
+    display: block;
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+    margin: 0 auto;
+    background-image: url("https://svgshare.com/i/VHx.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #FF7675;
+}
+
+
+.main--service--article--container .light{
+    display: block;
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+    margin: 0 auto;
+    background-image: url("https://svgshare.com/i/VKD.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00B894;
+}
+
+.main--service--article--container .linkedin{
+    display: block;
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+    margin: 0 auto;
+    background-image: url("https://svgshare.com/i/VK9.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #E84393;
+}
+
+
+.main--service--article--container .some-rctangle{
+    display: block;
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+    margin: 0 auto;
+    background-image: url("https://svgshare.com/i/VHv.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #74B9FF;
+}
+
+.main--service--article--container h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.7rem;
+    color: var(--black);
+}
+
+
+.main--service--article--container p{
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+    color: var(--black);
+}
+
+.main--service--article--container a{
+    display: block;
+    margin: 10px auto 0;
+    width: 109.5px;
+    height: 36px;
+    padding-top: 5px;
+    border: 0.75px solid #ADADAD;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 2.4rem;
+    color: var(--Purple-dark);
+}
+
+.Section--pricing{
+    margin-top: 50px;
+}
+
+.section--pricing-content{
+    margin-top: 40px;
+}
+
+.section--princing-title, .section--princing--description{
+    padding-left: 15px;
+}
+
+.section--princing-title{
+    font-size: 3.2rem;
+    font-weight: bold;
+    line-height: 4.8rem;
+    color: var(--black);
+}
+
+.section--princing--description{
+    margin-top: 5px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 3.5rem;
+    color: var(--black);
+}
+
+.section--princing--description span{
+    color: #ADADAD;
+}
+
+.pricing-content-container{
+    margin: 0 auto 50px;
+    width: 288px;
+    min-width: 288px;
+    height: 392px;
+    border-radius: 16px;
+    box-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16);
+}
+
+.pricing--top{
+    display: flex;
+    position: relative;
+    padding-top: 20px;
+}
+
+.pricing--top h3{
+    padding-left: 10px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+    color: var(--black);
+}
+
+.pricing--top a{
+    position: absolute;
+    width: 90px;
+    height: 32px;
+    left: 60%;
+    margin-right: 10%;
+    padding-top: 7px;
+    font-weight: 800;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black);
+    text-decoration: none;
+    border: 1px solid #858585;
+    border-radius: 99px;
+}
+
+.pricing--value{
+    padding-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    line-height: 1.5rem;
+    color: var(--Purple-dark);
+    text-shadow: 0px 4px 0px #FFFFFF;
+}
+
+.pricing--value span{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 3.6rem;
+    color: var(--Purple-dark);
+    text-shadow: 0px 4px 0px #FFFFFF;
+}
+
+.princing--benefits-list{
+    list-style: none;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.princing--benefits-list li{
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: var(--black);
+}
+
+.princing--benefits-list li span{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-image: url("https://svgshare.com/i/VVd.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.pricing-content-container .pricing--call-to-action{
+    display: block;
+    margin: 40px auto 0;
+    width: 90%;
+    height: 48px;
+    padding-top: 5px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 3.2rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: var(--Purple-dark);
+    border-radius: 16px;
+}
+
+.pricing-content-container-best-ofert{
+    background-color: var(--Purple-dark);
+}
+
+.pricing-content-container-best-ofert .pricing--top-best-ofert h3{
+    color:  #55EFC4;
+}
+
+.pricing-content-container-best-ofert .pricing--top-best-ofert a{
+    color:  #55EFC4;
+    border: 1px solid #55EFC4;
+}
+
+
+.pricing--value-best-ofert{
+    color: white;
+    text-shadow: none;
+}
+
+.pricing--value-best-ofert span{
+    color: white;
+    text-shadow: none;
+}
+
+.princing--benefits-list--best-ofert li{
+    color: white;
+}
+
+.princing--benefits-list--best-ofert li span{
+    background-image: url("https://svgshare.com/i/VVe.svg");
+}
+
+.pricing-content-container .pricing--call-to-action-best-ofert{
+    background-color: white;
+    color: var(--black);
+}
+
+footer{
+    margin: 100px auto 20px;
+    width: 85%;
+    text-align: center;
+}
+
+footer h3{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: var(--black);
+}
+
+footer p{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 2.2rem;
+    color: #00B894;
+}
+
+
+footer h2{
+    margin-top: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 3.2rem;
+    color: var(--Purple-dark);
+}
+
+.footer--icons-list{
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon-container{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.facebook{
+    background-image: url("https://svgshare.com/i/VHw.svg");
+}
+
+.linkedin{
+    background-image: url("https://svgshare.com/i/VKB.svg");
+}
+
+.slack{
+    background-image: url("https://svgshare.com/i/VGq.svg");
+}
+
+.twitter{
+    background-image: url("https://svgshare.com/i/VVM.svg");
+}
+
+.youtube{
+    background-image: url("https://svgshare.com/i/VKC.svg");
+}
+
+
+
+
+
+
+
